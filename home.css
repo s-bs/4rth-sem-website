@@ -1,0 +1,28 @@
+*{
+    background-color:#8acbed!important;
+}
+
+.hero img {
+    width:100%;
+}
+.logo img{
+    width:50%;
+
+}
+
+.section-places .img-wrapper{
+    height: 126px;
+    overflow: hidden;
+}
+
+.section-places img.img-thumbnail{
+    max-height: 126px;
+    width: 100%;
+    object-fit: cover;
+    transition: transform .5s ease;
+}
+
+.section-places .img-wrapper:hover img{
+    transform: scale(1.5);
+    transition: transform .5s ease;
+}

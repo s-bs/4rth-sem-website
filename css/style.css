@@ -1,0 +1,59 @@
+.form-group{
+	padding: 10px;
+	border-bottom: 1px solid #23c;
+}
+
+#login_form fieldset{
+    width: 50%;
+}
+
+#login_form .form-group label{
+    width: 15%;
+    display: inline-block;
+}
+
+#login_form .form-group input{
+    width: 50%;
+    display: inline-block;
+    height: 30px;
+}
+#login_form .form-group input[type=checkbox]{
+    height: 15px;
+    display: inline-block;
+}
+
+#login_form .form-group input[type=submit]{
+    width: 100px;
+    height: 30px;
+    background-color: #2f0;
+    border: none;
+    color: #fff;
+    margin-left: 15%;
+}
+
+#login_form .form-group input[type=reset]{
+    width: 100px;
+    height: 30px;
+    background-color: #f20;
+    border: none;
+    color: #fff;
+    margin-left: 5%;
+}
+
+.form-group:last-child{
+	
+	border-bottom: none;
+}
+
+.error{
+	color: red;
+}
+
+.error_message{
+	background-color: #2f0;
+}
+
+.admin_menu li{
+     display: inline-block;
+     width: 200px;
+}
